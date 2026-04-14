@@ -44,6 +44,12 @@
       TITLEBAR_PADDING_LEFT, [self bounds].size.height - TITLEBAR_BUTTON_SIZE - TITLEBAR_PADDING_TOP, TITLEBAR_BUTTON_SIZE, TITLEBAR_BUTTON_SIZE);
       [miniaturizeButton setFrame: miniaturizeButtonRect];
     }
+/*  if (hasZoomButton)
+    {
+      zoomButtonRect = NSMakeRect(
+      TITLEBAR_PADDING_LEFT * 2, [self bounds].size.height - TITLEBAR_BUTTON_SIZE - TITLEBAR_PADDING_TOP, TITLEBAR_BUTTON_SIZE, TITLEBAR_BUTTON_SIZE);
+      [zoomButton setFrame: zoomButtonRect];
+    }*/
 }
 
 @end

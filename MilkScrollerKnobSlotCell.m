@@ -12,11 +12,11 @@
   if (NSIsEmptyRect(cellFrame))
     return;
 //  cellFrame = NSInsetRect(cellFrame, 1, 1);
-  NSColor * baseColor = [NSColor colorWithCalibratedRed: 0.95
-                                                  green: 0.95
-                                                   blue: 0.95
+  NSColor * baseColor = [NSColor colorWithCalibratedRed: 0.75
+                                                  green: 0.75
+                                                   blue: 0.75
                                                   alpha: 1.0];
-  NSColor *shadowColor = [baseColor shadowWithLevel: 0.15];
+  NSColor *shadowColor = [baseColor shadowWithLevel: 0.25];
   NSGradient* gr = [[NSGradient alloc] initWithColorsAndLocations:
       shadowColor, 1.0,
       baseColor, 0.7,
