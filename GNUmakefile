@@ -1,42 +1,42 @@
 include $(GNUSTEP_MAKEFILES)/common.make
 
-PACKAGE_NAME = Milk
-BUNDLE_NAME = Milk
+PACKAGE_NAME = Ink
+BUNDLE_NAME = Ink
 BUNDLE_EXTENSION = .theme
 VERSION = 1
 
-Milk_INSTALL_DIR=$(GNUSTEP_LIBRARY)/Themes
-Milk_PRINCIPAL_CLASS = Milk
+Ink_INSTALL_DIR=$(GNUSTEP_LIBRARY)/Themes
+Ink_PRINCIPAL_CLASS = Ink
 
-Milk_OBJC_FILES = \
-		Milk.m\
-		Milk+Drawings.m\
-		Milk+Button.m\
-		Milk+FocusFrame.m\
-		Milk+WindowDecoration.m\
-		Milk+Menu.m\
-		Milk+Slider.m\
-		Milk+ProgressIndicator.m\
-		Milk+Scroller.m\
-		Milk+ColorWell.m\
-		Milk+Stepper.m\
-		Milk+Segmented.m\
-		Milk+Browser.m\
-		Milk+Table.m\
-		GSStandardDecorationView+Milk.m\
-		NSWindow+Milk.m\
-		NSSegmentedCell+Milk.m\
-		MilkWindowButton.m\
-		MilkWindowButtonCell.m\
-		MilkScrollerKnobCell.m\
-		MilkScrollerKnobSlotCell.m\
-		MilkScrollerArrowCell.m\
-		NSBrowserCell+Milk.m\
-		NSSearchFieldCell+Milk.m\
-		NSCell+Milk.m\
-		NSTextFieldCell+Milk.m\
-		NSBox+Milk.m\
-		NSPopUpButton+Milk.m
+Ink_OBJC_FILES = \
+		Ink.m\
+		Ink+Drawings.m\
+		Ink+Button.m\
+		Ink+FocusFrame.m\
+		Ink+WindowDecoration.m\
+		Ink+Menu.m\
+		Ink+Slider.m\
+		Ink+ProgressIndicator.m\
+		Ink+Scroller.m\
+		Ink+ColorWell.m\
+		Ink+Stepper.m\
+		Ink+Segmented.m\
+		Ink+Browser.m\
+		Ink+Table.m\
+		GSStandardDecorationView+Ink.m\
+		NSWindow+Ink.m\
+		NSSegmentedCell+Ink.m\
+		InkWindowButton.m\
+		InkWindowButtonCell.m\
+		InkScrollerKnobCell.m\
+		InkScrollerKnobSlotCell.m\
+		InkScrollerArrowCell.m\
+		NSBrowserCell+Ink.m\
+		NSSearchFieldCell+Ink.m\
+		NSCell+Ink.m\
+		NSTextFieldCell+Ink.m\
+		NSBox+Ink.m\
+		NSPopUpButton+Ink.m
 ADDITIONAL_OBJC_LIBS = -lobjc
 ADDITIONAL_TOOL_LIBS =
 $(BUNDLE_NAME)_RESOURCE_FILES = \

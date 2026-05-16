@@ -1,4 +1,4 @@
-Milk.theme
+Ink.theme
 =========
 
 A GNUstep theme based on Milk Theme for OSX by Max Rudberg.
